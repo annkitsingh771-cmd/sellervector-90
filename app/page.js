@@ -1,8 +1,15 @@
-About.jsx
-Hero.jsx
-Navbar.jsx
-Features.jsx
-Contact.jsx
-Footer.jsx
-layout.js
-global.css
+import Hero from "./Hero";
+import Features from "./Features";
+import About from "./About";
+import Contact from "./Contact";
+
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <Features />
+      <About />
+      <Contact />
+    </>
+  );
+}
